@@ -1,0 +1,73 @@
+/* chrome devTools and css box model  */
+/* 
+ css box model */
+/* spacing on the outside of the box and called margin */
+/* spacing inside is called padding and it is 
+ preferable than using height and width */
+/* text styles  */
+p {
+    font-family: Arial;
+}
+
+.video-title {
+    /* font-family: Arial;
+     font-size: 30px;
+     font-weight: bold;
+     font-style: italic;
+     text-align: center; */
+
+    font-weight: bold;
+    font-size: 20px;
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.video-stats {
+
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 0;
+}
+
+.video-author {
+
+    color: rgb(96, 96, 96);
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+
+.video-description {
+
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 280px;
+    line-height: 24px;
+    margin-bottom: 100px;
+}
+
+.apple-text {
+    margin-bottom: 50px;
+    background-color: rgb(255, 65, 64);
+    font-size: 14px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    width: 55;
+    color: white;
+    text-align: center;
+}
+
+.span-text {
+    color: red;
+}
+
+.inside-span {
+
+    cursor: pointer;
+}
+
+.inside-span:hover {
+    text-decoration: underline;
+}
